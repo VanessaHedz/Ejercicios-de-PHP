@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+
+<form action="resultadosEjercicio2.php" method="POST">
+    Nombre: <input type="text" name="nombre"><br>
+    Edad: <input type="number" name="edad"><br><br>
+    <input type="submit">
+</form>
     
 </body>
 </html>
