@@ -13,8 +13,8 @@
     $especiales = ["!","@","$","%","&","/","(",")","=","+","?","[","]","~","_","^"];
     $password = "";
 
-    var_dump($listaNombre);
-    var_dump($listaCuenta);
+    // var_dump($listaNombre);
+    // var_dump($listaCuenta);
 
     for($i=1; $i<=8; $i++){
         if($i == 1){
