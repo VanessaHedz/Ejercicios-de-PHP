@@ -8,22 +8,20 @@
 
     //Hallando el número mayor
     $mayor = $lista[0];
-    for($j=0; $j<=count($lista)-1; $j++){
-        if($mayor<=$lista[$j+1]){
-            $mayor = $lista[$j+1];
+    for($j=0; $j<count($lista); $j++){
+        if($mayor <= $lista[$j]){
+            $mayor = $lista[$j];
         }
     }
-
-    print("El número mayor es: ".$mayor);
 
     //Hallando el número menor
     $menor = $lista[0];
-    for($j=0; $j<=count($lista)-1; $j++){
-        if($menor>=$lista[$j+1]){
-            $menor = $lista[$j+1];
+    for($j=0; $j < count($lista); $j++){
+        if($menor >= $lista[$j]){
+            $menor = $lista[$j];
         }
     }
-    
-    print("El número menor es: ".$menor);
 
+    echo "<p>El número mayor es: ".$mayor."</p>";
+    echo "<p>El número menor es: ".$menor."</p>";
 ?>
