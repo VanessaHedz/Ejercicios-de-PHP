@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+<p>Este programa te saluda</p>
 
+<h2>Programa Saludo</h2>
 <form action="resultadosEjercicio2.php" method="POST">
     Nombre: <input type="text" name="nombre"><br>
     Edad: <input type="number" name="edad"><br><br>
